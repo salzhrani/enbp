@@ -1,0 +1,33 @@
+{
+  "name": "enbp",
+  "version": "0.0.1",
+  "homepage": "https://github.com/salzhrani/enbp",
+  "authors": [
+    "Samy Alzahrani <samy@jehazy.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "handlebars": "~1.3.0",
+    "jquery": "~2.1.0",
+    "qunit": "~1.14.0",
+    "ember": "~1.4.0-beta.5",
+    "ember-data": "~1.0.0-beta.6",
+    "ember-resolver": "git://github.com/stefanpenner/ember-jj-abrams-resolver.git#master",
+    "ic-ajax": "~0.3.0",
+    "ember-testing-httpRespond": "~0.1.1",
+    "ember-addons.bs_for_ember":"~0.6.0",
+    "twbs-bootstrap-sass": "~3.1.0"
+  },
+  "resolutions": {
+    "ember": "~1.4.0-beta.5",
+    "jquery": "~2.1.0"
+  }
+}

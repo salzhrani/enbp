@@ -1,0 +1,47 @@
+{
+  "name": "enbp",
+  "version": "0.0.1",
+  "description": "TBA",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "bower install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/salzhrani/enbp.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "gitHead": "b305c6d1269cc2ee02ee5a8aaa185ee8aeaf9d0c",
+  "bugs": {
+    "url": "https://github.com/salzhrani/enbp/issues"
+  },
+  "dependencies": {
+    "express": "~3.4.8",
+    "passport": "~0.2.0",
+    "passport-local": "~0.1.6",
+    "express3-handlebars": "~0.5.0",
+    "rsvp": "~3.0.3",
+    "mongoose": "~3.8.6"
+  },
+  "devDependencies": {
+    "loom-generators-ember-appkit": "salzhrani/loom-generators-ember-appkit",
+    "bower": "~1.2.7",
+    "grunt": "~0.4.2",
+    "grunt-cli": "~0.1.9",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-contrib-copy": "~0.4.1",
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-contrib-jshint": "~0.8.0",
+    "grunt-contrib-uglify": "~0.2.7",
+    "grunt-contrib-cssmin": "~0.6.2",
+    "grunt-es6-module-transpiler": "~0.6.0",
+    "grunt-concat-sourcemap": "~0.4.0",
+    "grunt-ember-templates": "~0.4.18",
+    "grunt-contrib-testem": "~0.5.14",
+    "loom": "~3.1.2",
+    "lockfile": "~0.4.2"
+  }
+}
